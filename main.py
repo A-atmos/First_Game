@@ -10,7 +10,7 @@ screen = pygame.display.set_mode((800,600))
 icon = pygame.image.load('grid.png')
 pygame.display.set_icon(icon)
 bg_image = pygame.image.load('background.jpg')
-pygame.display.set_caption("New Game!!")
+pygame.display.set_caption("Akash le dhalyo sab lai!!")
 
 #player module
 playerimg = pygame.image.load('playerimg.jpg')
