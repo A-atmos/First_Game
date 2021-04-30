@@ -29,7 +29,7 @@ for i in range(number_of_enemies):
     enemyimg.append(pygame.image.load('enemyimg'+str(i)+'.jpg'))
     enemyX.append(float(random.randint(0,736)))
     enemyY.append(random.randint(50,150))
-    enemyX_change.append(random.uniform(0.5,2))
+    enemyX_change.append(random.uniform(0.25,0.5))
 
 #bullet module 1st
 bulletimg = pygame.image.load('bullet.png')
